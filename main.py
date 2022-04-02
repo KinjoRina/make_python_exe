@@ -6,7 +6,6 @@ if getattr(sys, 'frozen', False):
 load_dotenv(dotenv_path=os.path.join(extDataDir, '.env'))
 
 
-#load_dotenv(dotenv_path=".env")
 import os
 word = os.getenv('word')
 from datetime import datetime
